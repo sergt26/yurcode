@@ -47,7 +47,7 @@ p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #F05F40 !important; }
+  background-color: #222 !important; }
 
 .bg-dark {
   color: white;
@@ -114,7 +114,7 @@ body {
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: #F05F40 !important;
-      background-color: gray; }
+      background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         background-color: transparent; }
@@ -149,7 +149,6 @@ body {
             #mainNav .img-fluid {
               height: 75px;
               width: 100px;
-              // background-color: #212529;
             }
 
 header.masthead {
@@ -218,15 +217,15 @@ header.masthead {
                   height: 50px;
                   padding: 0;
                   letter-spacing: normal;
-                  color: rgba(64, 64, 64, 0.4);
-                  border: 2px solid rgba(64, 64, 64, 0.4);
+                  color: rgba(255, 255, 255, 0.5);
+                  border: 2px solid rgba(255, 255, 255, 0.5);
                   border-radius: 100% !important;
                   -webkit-transition: all 0.5s;
                   -moz-transition: all 0.5s;
                   transition: all 0.5s; }
                   header.masthead .scroll-down .btn:hover {
-                    color: rgba(255, 255, 255, 0.5) !important;
-                    border-color: rgba(255, 255, 255, 0.5);
+                    color: rgba(254, 254, 254, 0.8) !important;
+                    border-color: rgba(254, 254, 254, 0.8);
                     outline: none; }
 
 .service-box {
@@ -237,6 +236,9 @@ header.masthead {
       margin: 20px auto 0; } }
   .service-box p {
     margin-bottom: 0; }
+    .fa {
+      padding-bottom: 20px;
+    }
 
 
 // Description
@@ -250,6 +252,7 @@ header.masthead {
       -o-background-size: cover;
       background-size: cover;
       background-attachment: scroll;
+      height: 450px;
       background-image: url('two-men.png');}
       @media (min-width: 1024px) {
         .call-to-action {
@@ -361,6 +364,7 @@ header.masthead {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
+      .portfolio-box .img-fluid 
 
       .p-0 {
         background-color: rgba(245, 245, 245, 0.4); }
@@ -651,6 +655,7 @@ header.masthead {
 
 .btn-xl {
   padding: 15px 30px; }
+
 
 
 

@@ -4,9 +4,8 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <%= image_tag "logo.png",
+        <%= image_tag "light_logo.png",
         alt: "Logo Image", class: 'img-fluid' %>
-          <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -17,10 +16,13 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#services">What We Do</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Apparel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -35,7 +37,6 @@
       <div class="header-content-inner">
         <h1 id="homeHeading">What's Yur Code?</h1>
         <hr>
-        <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a> -->
       </div>
     </div>
     <div class="scroll-down">
@@ -49,7 +50,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading text-white">We've got what you need!</h2>
+          <h2 class="section-heading text-white">For Coders By Coders!</h2>
           <hr class="light">
           <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
           <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Learn More</a>
@@ -80,23 +81,23 @@
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-            <h3>Ready to Ship</h3>
-            <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+            <i class="fa fa-4x fa-file-code-o text-primary sr-icons"></i>
+            <h3>Code Editor Integration</h3>
+            <p class="text-muted">Write code on our site with our text editor integration. Then submit it for a chance to have it printed on our shirt!</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box">
-            <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-            <h3>Up to Date</h3>
-            <p class="text-muted">We update dependencies to keep things fresh.</p>
+            <i class="fa fa-4x fa-code text-primary sr-icons"></i>
+            <h3>Real Code</h3>
+            <p class="text-muted">Our apparel has unique code written by our developers!</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="service-box">
             <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-            <h3>Made with Love</h3>
-            <p class="text-muted">You have to make your websites with love these days!</p>
+            <h3>Helping People Code</h3>
+            <p class="text-muted">Proceeds from your purchase will go towards teaching the next generation of coders!</p>
           </div>
         </div>
       </div>
@@ -122,15 +123,17 @@
   <section class="p-0" id="portfolio">
     <!-- <div class="container wow fadeIn"> -->
       <div class="text-center">
-        <h2>Our Shirts</h2>
+        <h2>Apparel</h2>
         <hr class="colored">
         <p>Here is a sample of items from our Spring 2017 collection.</p>
       </div>
     <div class="container-fluid">
       <div class="row no-gutter popup-gallery">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+          <a class="portfolio-box">
+            <%= image_tag "code-front.png",
+            alt: "Shirt Image", class: 'img-fluid' %>
+            <!-- <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt=""> -->
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -144,8 +147,10 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+          <a class="portfolio-box">
+            <%= image_tag "code-back.png", 
+            alt: "Shirt Image", class: 'img-fluid' %>
+            <!-- <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt=""> -->
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -159,8 +164,10 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+          <a class="portfolio-box">
+            <%= image_tag "another-front.png",
+            alt: "Shirt Image", class: 'img-fluid' %>
+            <!-- <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt=""> -->
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -174,8 +181,10 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+          <a class="portfolio-box">
+            <%= image_tag "another-back.png",
+            alt: "Shirt Image", class: 'img-fluid' %>
+            <!-- <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt=""> -->
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -189,8 +198,10 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+          <a class="portfolio-box">
+            <%= image_tag "shirt-front.png",
+            alt: "Shirt Image", class: 'img-fluid' %>
+            <!-- <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt=""> -->
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -204,8 +215,11 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+          <a class="portfolio-box">
+            <a class="portfolio-box">
+              <%= image_tag "shirt-back.png",
+              alt: "Shirt Image", class: 'img-fluid' %>
+            <!-- <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt=""> -->
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -226,7 +240,7 @@
   <!-- Team Section -->
   <section class="page-section bg-light" id="team">
     <div class="container text-center wow fadeIn">
-      <h2>Our Team</h2>
+      <h2>Team</h2>
       <p class="mb-0">We are a group of fashion experts with a passion for setting new trends.</p>
       <hr class="colored">
       <div class="team-carousel owl-carousel owl-theme mt-4">
