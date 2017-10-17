@@ -157,8 +157,8 @@ header.masthead {
   width: 100%;
   min-height: auto;
   text-align: center;
-  color: rgba(64, 64, 64, 0.4);
-  background-image: url("../img/header.jpg");
+  color: rgba(254, 254, 254, 0.5);
+  background-image: url("other-guy.png");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -181,7 +181,7 @@ header.masthead {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 50px;
-      color: rgba(64, 64, 64, 0.4); }
+      color: rgba(254, 254, 254, 0.5); }
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
@@ -249,7 +249,8 @@ header.masthead {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      background-attachment: scroll; }
+      background-attachment: scroll;
+      background-image: url('two-men.png');}
       @media (min-width: 1024px) {
         .call-to-action {
           background-attachment: fixed; } }
@@ -361,6 +362,10 @@ header.masthead {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
 
+      .p-0 {
+        background-color: rgba(245, 245, 245, 0.4); }
+
+
 
 
 // Newsletter
@@ -429,12 +434,13 @@ header.masthead {
 
       footer.footer {
         padding: 50px 0 20px;
-        color: rgba(64, 64, 64, 0.4);
+        color: rgba(254, 254, 254, 0.8);
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        background-attachment: scroll; }
+        background-attachment: scroll;
+        background-image: url("new-girl.png")}
         @media (min-width: 1024px) {
           footer.footer {
             background-attachment: fixed; } }

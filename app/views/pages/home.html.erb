@@ -35,7 +35,6 @@
       <div class="header-content-inner">
         <h1 id="homeHeading">What's Yur Code?</h1>
         <hr>
-        <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
         <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a> -->
       </div>
     </div>
@@ -54,21 +53,6 @@
           <hr class="light">
           <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
           <a class="btn btn-default btn-xl js-scroll-trigger" href="#services">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call to Action -->
-  <section class="call-to-action" style="background-image: url('img/fashion/backgrounds/bg-quote.jpg');">
-    <div class="container wow fadeIn">
-      <div class="row">
-        <div class="col-md-10 mx-auto">
-          <span class="quote">Fashion design is more than just making clothes. It's about
-            <span class="text-primary">pushing boundaries</span>
-            and creating something unique and exciting.</span>
-          <hr class="colored">
-          <!-- <a class="btn btn-primary js-scroll-trigger" href="#process">Learn Our Process</a> -->
         </div>
       </div>
     </div>
@@ -119,52 +103,29 @@
     </div>
   </section>
 
-  <!-- Team Section -->
-  <section class="page-section bg-light" id="team">
-    <div class="container text-center wow fadeIn">
-      <h2>Our Team</h2>
-      <p class="mb-0">We are a group of fashion experts with a passion for setting new trends.</p>
-      <hr class="colored">
-      <div class="team-carousel owl-carousel owl-theme mt-4">
-
-
-        <!-- Team Carousel Item 1 -->
-        <div class="item">
-          <div class="overlay"></div>
-
-          <%= image_tag "profile_pic.png", width: 300,
-          alt: "Profile Image", class: 'img-fluid' %>
-          <!-- <img class="img-fluid" src="1.jpg" alt=""> -->
-          <div class="team-caption">
-            <h3>Sergio Aravena</h3>
-            <hr class="colored">
-            <em>Founder</em>
-            <ul class="list-inline list-team-social">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-linkedin fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-envelope-o fa-fw"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+  <!-- Call to Action -->
+  <section class="call-to-action">
+    <div class="container wow fadeIn">
+      <div class="row">
+        <div class="col-md-10 mx-auto">
+          <span class="quote">Fashion design is more than just making clothes. It's about
+            <span class="text-primary">pushing boundaries</span>
+            and creating something unique and exciting.</span>
+          <hr class="colored">
+          <!-- <a class="btn btn-primary js-scroll-trigger" href="#process">Learn Our Process</a> -->
         </div>
       </div>
     </div>
   </section>
 
-
-<!-- portfolio-gallery -->
+  <!-- portfolio-gallery -->
   <section class="p-0" id="portfolio">
+    <!-- <div class="container wow fadeIn"> -->
+      <div class="text-center">
+        <h2>Our Shirts</h2>
+        <hr class="colored">
+        <p>Here is a sample of items from our Spring 2017 collection.</p>
+      </div>
     <div class="container-fluid">
       <div class="row no-gutter popup-gallery">
         <div class="col-lg-4 col-sm-6">
@@ -259,9 +220,51 @@
         </div>
       </div>
     </div>
+  <!-- </div> -->
+</section>
+
+  <!-- Team Section -->
+  <section class="page-section bg-light" id="team">
+    <div class="container text-center wow fadeIn">
+      <h2>Our Team</h2>
+      <p class="mb-0">We are a group of fashion experts with a passion for setting new trends.</p>
+      <hr class="colored">
+      <div class="team-carousel owl-carousel owl-theme mt-4">
+
+
+        <!-- Team Carousel Item 1 -->
+        <div class="item">
+          <div class="overlay"></div>
+
+          <%= image_tag "profile_pic.png", width: 300,
+          alt: "Profile Image", class: 'img-fluid' %>
+          <!-- <img class="img-fluid" src="1.jpg" alt=""> -->
+          <div class="team-caption">
+            <h3>Sergio Aravena</h3>
+            <hr class="colored">
+            <em>Founder</em>
+            <!-- <ul class="list-inline list-team-social">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-envelope-o fa-fw"></i>
+                </a>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-
-
 
   <!-- Newsletter Signup Call to Action -->
   <section class="page-section signup-form bg-inverse text-white">
@@ -346,7 +349,7 @@
 
 
   <!-- Footer -->
-  <footer class="footer" style="background-image: url('img/fashion/backgrounds/bg-footer.jpg')">
+  <footer class="footer">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-4 footer-contact-details">
