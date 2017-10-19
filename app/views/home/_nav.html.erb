@@ -1,0 +1,34 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <%= image_tag "light_logo.png",
+      alt: "Logo Image", class: 'img-fluid' %>
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <%= link_to "About", "#about", class: "nav-link js-scroll-trigger" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "What We Do", "#services", class: "nav-link js-scroll-trigger" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Apparel", "#apparel", class: "nav-link js-scroll-trigger" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Team", "#team", class: "nav-link js-scroll-trigger" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Corporate", "pages/corporate", class: "nav-link js-scroll-trigger" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Contact", "#contact", class: "nav-link js-scroll-trigger" %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
