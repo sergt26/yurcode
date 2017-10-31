@@ -147,8 +147,10 @@ body {
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
             color: #F05F40; } }
             #mainNav .img-fluid {
-              height: 75px;
-              width: 100px;
+              // 70
+              // 100
+              height: 60px;
+              width: 80px;
             }
 
 header.masthead {
@@ -157,7 +159,8 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: rgba(254, 254, 254, 0.5);
-  background-image: url("other-guy.png");
+  background-image: url("girl.png");
+  opacity: 0.8;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -376,14 +379,16 @@ header.masthead {
       .signup-form .input-group .form-control {
         border: 0;
         border-color: white;
-        border-radius: 0; }
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; }
 
       .signup-form .input-group .input-group-btn .btn {
         padding: 12px 18px; }
 
       .signup-form .input-group .input-group-btn .btn-primary {
         border: 0;
-        border-radius: 0;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
         background-color: #EF4035;
         font-size: 1rem; }
         .signup-form .input-group .input-group-btn .btn-primary:hover, .signup-form .input-group .input-group-btn .btn-primary:focus {
@@ -444,7 +449,8 @@ header.masthead {
         -o-background-size: cover;
         background-size: cover;
         background-attachment: scroll;
-        background-image: url("new-girl.png")}
+        background-image: url("new-girl.png");
+        opacity: 0.8; }
         @media (min-width: 1024px) {
           footer.footer {
             background-attachment: fixed; } }
